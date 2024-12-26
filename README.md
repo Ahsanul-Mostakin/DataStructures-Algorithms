@@ -18,10 +18,3 @@ This folder contains **JavaScript** learning materials, exercises, and implement
 ### 4. **Java-to-Python**
 This folder contains implementations of Java-based data structures and algorithms converted to **Python**. It's useful for developers familiar with Java looking to learn how to implement the same structures in Python.
 
-## How to Use
-
-### Clone the Repository:
-To clone this repository to your local machine, use the following command:
-
-```bash
-git clone https://github.com/your-username/DataStructures-Algorithms.git
