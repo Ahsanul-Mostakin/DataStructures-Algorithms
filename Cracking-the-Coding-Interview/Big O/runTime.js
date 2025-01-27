@@ -16,4 +16,4 @@ function foo(array){
 foo([1,2,3,4,5])
 
 //O(n)+O(n)=O(2n)
-//Runtime Complexity: O(n)
+//Runtime Complexity: O(n
