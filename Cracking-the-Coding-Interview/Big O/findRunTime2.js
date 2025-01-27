@@ -11,3 +11,5 @@ printPairs([1,2,3,4])
 
 //The total number of iterations of the print statement is n * n = n².
 //O(n²)
+
+Object(n)
