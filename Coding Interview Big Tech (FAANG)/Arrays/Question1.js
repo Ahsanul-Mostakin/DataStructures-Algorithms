@@ -1,5 +1,4 @@
 /*Given an array of integers, return the incices of two numbers that add up to a given target */
-
 //Array = [1,3,7,9,2] Target = 11 
 //if no possible solution, return null
 
