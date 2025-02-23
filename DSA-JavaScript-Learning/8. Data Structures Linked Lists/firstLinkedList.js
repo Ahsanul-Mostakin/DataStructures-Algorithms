@@ -68,6 +68,7 @@ class LinkedList {
 
     while (count < index - 1) {
       leader = leader.next;
+      V;
       count++;
     }
 
