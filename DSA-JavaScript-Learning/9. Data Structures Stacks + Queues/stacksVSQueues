@@ -1,0 +1,59 @@
+class Stack {
+  constructor() {
+    this.items = [];
+  }
+
+  push(element) {
+    this.items.push(element); // Add to the top
+  }
+
+  pop() {
+    return this.items.pop(); // Remove from the top
+  }
+
+  peek() {
+    return this.items[this.items.length - 1]; // View the top element
+  }
+
+  isEmpty() {
+    return this.items.length === 0;
+  }
+}
+
+class Queue {
+  constructor() {
+    this.items = [];
+  }
+
+  enqueue(element) {
+    this.items.push(element); // Add to the back
+  }
+
+  dequeue() {
+    return this.items.shift(); // Remove from the front
+  }
+
+  front() {
+    return this.items[0]; // View the front element
+  }
+
+  isEmpty() {
+    return this.items.length === 0;
+  }
+}
+
+// Example usage:
+
+// Stack operations
+const stack = new Stack();
+stack.push(10);
+stack.push(20);
+console.log("Stack Pop:", stack.pop()); // 20 (LIFO)
+console.log("Stack Peek:", stack.peek()); // 10
+
+// Queue operations
+const queue = new Queue();
+queue.enqueue(10);
+queue.enqueue(20);
+console.log("Queue Dequeue:", queue.dequeue()); // 10 (FIFO)
+console.log("Queue Front:", queue.front()); // 20
