@@ -44,5 +44,6 @@ let matrix2 = [
 ];
 rotate(matrix1);
 rotate(matrix2);
+
 console.log(matrix1);
 console.log(matrix2);
